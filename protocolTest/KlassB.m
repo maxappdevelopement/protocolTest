@@ -1,15 +1,17 @@
 //
-//  ViewController.h
+//  KlassB.m
 //  protocolTest
 //
 //  Created by Max Friman on 2019-02-15.
 //  Copyright © 2019 Max Friman. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KlassB.h"
 
-@interface ViewController : UIViewController
+@implementation KlassB
 
+-(void)knappTryck {
+    [_delegate loggaHej];
+}
 
 @end
-

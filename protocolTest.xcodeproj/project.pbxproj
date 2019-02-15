@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		DD3B76FE22169A5F00C39C33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3B76FD22169A5F00C39C33 /* AppDelegate.m */; };
-		DD3B770122169A5F00C39C33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3B770022169A5F00C39C33 /* ViewController.m */; };
+		DD3B770122169A5F00C39C33 /* KlassA.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3B770022169A5F00C39C33 /* KlassA.m */; };
 		DD3B770422169A5F00C39C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3B770222169A5F00C39C33 /* Main.storyboard */; };
 		DD3B770622169A6300C39C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3B770522169A6300C39C33 /* Assets.xcassets */; };
 		DD3B770922169A6300C39C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3B770722169A6300C39C33 /* LaunchScreen.storyboard */; };
 		DD3B770C22169A6300C39C33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3B770B22169A6300C39C33 /* main.m */; };
+		DD3B771D2216A56D00C39C33 /* KlassB.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3B771C2216A56D00C39C33 /* KlassB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD3B76F922169A5F00C39C33 /* protocolTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protocolTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3B76FC22169A5F00C39C33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD3B76FD22169A5F00C39C33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD3B76FF22169A5F00C39C33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD3B770022169A5F00C39C33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD3B76FF22169A5F00C39C33 /* KlassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KlassA.h; sourceTree = "<group>"; };
+		DD3B770022169A5F00C39C33 /* KlassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KlassA.m; sourceTree = "<group>"; };
 		DD3B770322169A5F00C39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD3B770522169A6300C39C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD3B770822169A6300C39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD3B770A22169A6300C39C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD3B770B22169A6300C39C33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD3B771B2216A56D00C39C33 /* KlassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KlassB.h; sourceTree = "<group>"; };
+		DD3B771C2216A56D00C39C33 /* KlassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KlassB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +63,15 @@
 			children = (
 				DD3B76FC22169A5F00C39C33 /* AppDelegate.h */,
 				DD3B76FD22169A5F00C39C33 /* AppDelegate.m */,
-				DD3B76FF22169A5F00C39C33 /* ViewController.h */,
-				DD3B770022169A5F00C39C33 /* ViewController.m */,
+				DD3B76FF22169A5F00C39C33 /* KlassA.h */,
+				DD3B770022169A5F00C39C33 /* KlassA.m */,
 				DD3B770222169A5F00C39C33 /* Main.storyboard */,
 				DD3B770522169A6300C39C33 /* Assets.xcassets */,
 				DD3B770722169A6300C39C33 /* LaunchScreen.storyboard */,
 				DD3B770A22169A6300C39C33 /* Info.plist */,
 				DD3B770B22169A6300C39C33 /* main.m */,
+				DD3B771B2216A56D00C39C33 /* KlassB.h */,
+				DD3B771C2216A56D00C39C33 /* KlassB.m */,
 			);
 			path = protocolTest;
 			sourceTree = "<group>";
@@ -141,9 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3B770122169A5F00C39C33 /* ViewController.m in Sources */,
+				DD3B770122169A5F00C39C33 /* KlassA.m in Sources */,
 				DD3B770C22169A6300C39C33 /* main.m in Sources */,
 				DD3B76FE22169A5F00C39C33 /* AppDelegate.m in Sources */,
+				DD3B771D2216A56D00C39C33 /* KlassB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
